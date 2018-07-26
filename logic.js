@@ -47,6 +47,9 @@ $("button.btn.btn-outline-success.my-2.my-sm-0").on("click", function(){
       $("#amount").empty();
       $("#currentrecIMG").empty();
       $("#recepieINST").empty();
+      $("#search-view1").empty();
+      $("#search-view2").empty();
+      
       
 })
 
@@ -210,12 +213,16 @@ $(document).on("click",".foodimage", function(){
       $("#food-view").append(price);
       $("#food-view").append(name);
       $("#food-view").append(link);
-
+      $("#search-view1").empty();
+      $("#search-view2").empty();
+    
     });
   });
 
 
-
+  function newsearch() {
+    location.reload();
+}
 
 
 
