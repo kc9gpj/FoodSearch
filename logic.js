@@ -36,12 +36,13 @@ $("button.btn.btn-outline-success.my-2.my-sm-0").on("click", function(){
 
             recbox.append(recImage);
 
+            recbox.css("float", "left");
+
             $("#rec").append(recbox);
             }
 
       });
-
-      
+   
       $("#rec").empty()
       $("#ingredients").empty();
       $("#amount").empty();
@@ -160,6 +161,7 @@ $(document).on("click",".foodimage", function(){
 
        embed = embed.replace('/watch?v=','/embed/');
 
+
        console.log(embed)
        
 
@@ -223,6 +225,7 @@ $(document).on("click",".foodimage", function(){
   function newsearch() {
     location.reload();
 }
+
 
 
 
