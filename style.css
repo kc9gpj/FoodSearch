@@ -1,3 +1,5 @@
+body { background: url("https://www.toptal.com/designers/subtlepatterns/patterns/redox_01.png");}
+
 h1{
     color: green;
     text-align: center;
@@ -12,6 +14,10 @@ h1{
     padding: 20px;
     float: left;
     
+}
+
+#rec {
+    text-align: center;
 }
 p{
     text-align: center;

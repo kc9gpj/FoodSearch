@@ -30,7 +30,8 @@ var database = firebase.database();
         search: search,
         
       });
-     
+      $("#search-view1").hide();
+      $("#search-view2").hide();
     });
 
     database.ref().orderByChild("age").limitToLast(3).on("child_added", function(snapshot) {
