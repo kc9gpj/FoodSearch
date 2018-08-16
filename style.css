@@ -1,5 +1,11 @@
-body { background: url("https://www.toptal.com/designers/subtlepatterns/patterns/redox_01.png");}
+body { 
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/redox_01.png");
+    font-family: 'Montserrat', sans-serif;
 
+}
+#rectitle {
+    margin: 10px 0px 15px 0px;
+}
 h1{
     color: green;
     text-align: center;
