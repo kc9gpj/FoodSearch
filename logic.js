@@ -164,26 +164,15 @@ $(document).on("click",".foodimage", function(){
 
        console.log(embed)
        
-
-       var linktovideo = $("<p>");
-
-       var linktext = $("<a id'embedlink'>");
-
-       linktext.attr('href',embed);
-
-       linktext.text(embed);
-
-   
-
-       linktovideo.append(linktext);
-
        var vidBox = $("<iframe>");
+
+       vidBox.css({"height": "200px", "width": "400px", "margin": "25px 0px 0px 0px"});
 
        vidBox.attr('src', embed);
 
        $("#video").append(vidBox);
 
-       $("#video").prepend(linktovideo);
+     
         
       });
 })
