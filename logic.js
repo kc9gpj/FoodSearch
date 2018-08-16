@@ -50,8 +50,8 @@ $("button.btn.btn-outline-success.my-2.my-sm-0").on("click", function(){
       $("#recepieINST").empty();
       $("#search-view1").empty();
       $("#search-view2").empty();
-      
-      
+      $("#food-view").empty();
+      $("#video").empty();
 })
 
 $(document).on("click",".foodimage", function(){

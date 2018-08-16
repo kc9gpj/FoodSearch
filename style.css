@@ -13,15 +13,24 @@ h1{
 
 #rectitle{
     color: black;
+    font: bold;
 }
 .foodimage{
     width: 200px;
     height: 200px;
     padding: 20px;
     float: left;
-    
+    border-radius: 25px;
 }
-
+h3 {
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: underline;
+}
+#cIMG {
+    border-radius: 25px;
+    margin: 15px 10px 0px 10px;
+}
 #rec {
     text-align: center;
 }
@@ -55,9 +64,7 @@ p{
     height: 300px; 
 }
 
-h3{
-    margin: 20px;
-}
+
 row{
     width: 300px;
 }
