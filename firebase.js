@@ -1,10 +1,10 @@
 var config = {
-  apiKey: "AIzaSyD22zMFQLX0LSzrND6ccKiFtjQXo4rQFlg",
-  authDomain: "recipe-440f0.firebaseapp.com",
-  databaseURL: "https://recipe-440f0.firebaseio.com",
-  projectId: "recipe-440f0",
-  storageBucket: "",
-  messagingSenderId: "383790739796"
+  apiKey: "AIzaSyDnQYeH8dvtDNC8tIZMecc6Y0uaDLTqH-I",
+  authDomain: "foodsearch-82582.firebaseapp.com",
+  databaseURL: "https://foodsearch-82582.firebaseio.com",
+  projectId: "foodsearch-82582",
+  storageBucket: "foodsearch-82582.appspot.com",
+  messagingSenderId: "378088961315"
 };
 
 firebase.initializeApp(config);
